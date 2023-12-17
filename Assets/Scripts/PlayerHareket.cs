@@ -39,10 +39,10 @@ public class PlayerHareket : MonoBehaviour
 #if UNITY_EDITOR
         KlavyeKontrol();
 #else
-            JoystickKontrol(); // ctrl k c  
+            JoystickKontrol();  
 #endif
 
-        //JoystickKontrol();  // ctrl k u
+        //JoystickKontrol();
     }
 
     void KlavyeKontrol()
